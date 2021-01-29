@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carta{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0.7em 0.7em 1em black;
+}
+.suits{
+    font-size: 110px;
+    
+}
+.numero{
+    font-size: 110px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+.suit-base{
+    transform: rotate(180deg);
+    margin-left: 50px;
+   
+}
+#suit-top{
+    margin-left: 10px;
+}
+#suit-base{
+    margin-left: 10px;
+}
